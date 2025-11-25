@@ -1,0 +1,10 @@
+{
+  "extends": "@workspace/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "paths": {
+      "@workspace/backend/*": ["./convex/_generated/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}
